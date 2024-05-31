@@ -37,10 +37,10 @@ const HeroContent = () => {
             BACHELOR 3
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              CONCEPTEUR DEVELOPPEUR D'APPLICATION{" "}
+              CONCEPTEUR DEVELOPPEUR D&apos;APPLICATION{" "}
             </span>
             <span>
-              DANS L'ECOLE : MY DIGITAL SCHOOL
+              DANS L&apos;ECOLE : MY DIGITAL SCHOOL
             </span>
           </span>
         </motion.div>
@@ -49,8 +49,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Bonjour je suis Esther Mehal actuellement en B3 passant mon diplome de Concepteur Developpeur d'application .
-          Je suis actuellement à la recherche d'une alternance afin de passer mon M1 en tant que developpeuse Full Stack.'
+          Bonjour je suis Esther Mehal actuellement en B3 passant mon diplome de Concepteur Developpeur d&apos;application .
+          Je suis actuellement à la recherche d&apos;une alternance afin de passer mon M1 en tant que developpeuse Full Stack.
         </motion.p>
       </div>
     </motion.div>

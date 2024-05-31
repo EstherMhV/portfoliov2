@@ -53,7 +53,9 @@ const Projects = () => {
         Mes Projets
       </h1>
 
+
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+
         <ProjectCard
           src="/chess.png"
           title="Modern Next.js Portfolio"
@@ -61,19 +63,18 @@ const Projects = () => {
           href="https://github.com/EstherMhV/aminum"
         />
 
-        {/* Uncomment and add more projects as needed
+
         <ProjectCard
           src="/consoEDF.png"
           title="Interactive Website Cards"
           description="Application JAVA de calcul de consommation d'énergie électrique."
           href="https://github.com/EstherMhV/consoEDF"
-        />
-        <ProjectCard
+        /><ProjectCard
           src="/ase_launcher.png"
-          title="ASE-LAUNCHER"
-          description="Launcher Hébergeant plusieurs jeux en Python fait dans le cadre de l'épreuve E5 de l'examen du BTS SIO SLAM."
+          title=" ASE-LAUNCHER"
+          description="Launcher Hébergeant plusieurs jeux en Python fait dans le cadre de l'epreuve E5 de l'examen du BTS SIO SLAM."
           href="https://github.com/MouhamadBilal/ase-launcher"
-        /> */}
+        />
       </div>
     </div>
   );

@@ -42,7 +42,6 @@ const HeroContent = () => {
             <span>
               DANS L'ECOLE : MY DIGITAL SCHOOL
             </span>
-
           </span>
         </motion.div>
 
@@ -53,32 +52,7 @@ const HeroContent = () => {
           Bonjour je suis Esther Mehal actuellement en B3 passant mon diplome de Concepteur Developpeur d'application .
           Je suis actuellement à la recherche d'une alternance afin de passer mon M1 en tant que developpeuse Full Stack.'
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn More!
-        </motion.a>
       </div>
-
-      <motion.div
-        variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
-      >
-        <Image
-          src="/mainIconsdark.svg"
-          alt="work icons"
-          height={650}
-          width={650}
-        />
-      </motion.div>
-
-      <motion.div
-        variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
-      >
-        <embed src="/CV ESTHER _MEHAL-1.pdf" type="application/pdf" width="650" height="650" />
-      </motion.div>
     </motion.div>
   );
 };
